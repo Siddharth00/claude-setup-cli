@@ -1,0 +1,47 @@
+{
+  "name": "claude-setup",
+  "version": "1.0.0",
+  "description": "Interactive CLI to scaffold Claude Code configuration for any project — CLAUDE.md, agents, skills, hooks, MCP servers and more.",
+  "bin": {
+    "claude-setup": "./bin/claude-setup"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node bin/claude-setup",
+    "prepublishOnly": "node -e \"require('./src/analyzer'); require('./src/prompts'); require('./src/index')\" 2>/dev/null | head -1 || true"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "setup",
+    "scaffold",
+    "cli",
+    "ai",
+    "llm",
+    "developer-tools",
+    "code-assistant"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/claude-setup.git"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/claude-setup#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/claude-setup/issues"
+  }
+}

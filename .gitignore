@@ -1,0 +1,7 @@
+node_modules/
+.claude/settings.local.json
+.claude/.mcp-local.json
+.claude/agent-memory-local/
+.claude/tool-log.jsonl
+*.log
+.DS_Store
