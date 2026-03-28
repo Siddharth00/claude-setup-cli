@@ -38,10 +38,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/claude-setup.git"
+    "url": "https://github.com/Siddharth00/claude-setup-cli.git"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/claude-setup#readme",
+  "homepage": "https://github.com/Siddharth00/claude-setup-cli#readme",
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/claude-setup/issues"
+    "url": "https://github.com/Siddharth00/claude-setup-cli/issues"
   }
 }

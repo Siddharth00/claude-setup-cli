@@ -5,7 +5,7 @@ Thanks for your interest in contributing!
 ## Getting started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-setup.git
+git clone https://github.com/Siddharth00/claude-setup-cli.git
 cd claude-setup
 npm install
 node bin/claude-setup   # run the wizard locally

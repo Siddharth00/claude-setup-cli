@@ -256,10 +256,10 @@ Useful Claude Code commands to explore what was set up:
 
 ## Contributing
 
-Issues and PRs welcome at [github.com/YOUR_USERNAME/claude-setup](https://github.com/YOUR_USERNAME/claude-setup).
+Issues and PRs welcome at [github.com/Siddharth00/claude-setup-cli](https://github.com/Siddharth00/claude-setup-cli).
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-setup.git
+git clone https://github.com/Siddharth00/claude-setup-cli.git
 cd claude-setup
 npm install
 node bin/claude-setup   # run locally
